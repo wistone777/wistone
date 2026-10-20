@@ -5,8 +5,9 @@ from loguru import logger
 
 from app.base import APPBase
 
+
 class V2ray(APPBase):
-    def __init__(self, blockList:List[str], unblockList:List[str], filterDict:Dict[str,str], filterList:List[str], filterList_var:List[str], ChinaSet:Set[str], fileName:str, sourceRule:str):
+    def __init__(self, blockList: List[str], unblockList: List[str], filterDict: Dict[str, str], filterList: List[str], filterList_var: List[str], ChinaSet: Set[str], fileName: str, sourceRule: str):
         super(V2ray, self).__init__(blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, fileName, sourceRule)
 
     def generate(self, isLite=False):
@@ -20,6 +21,9 @@ class V2ray(APPBase):
                 fileName = self.fileName
                 blockList = self.blockList
 
+            # 过滤掉非域名条目（纯 IP、带端口 IP 等），domain-list-community 只接受域名规则
+            blockList = [x for x in blockList if self.isDomain(x)]
+
             if os.path.exists(fileName):
                 os.remove(fileName)
 
@@ -28,19 +32,20 @@ class V2ray(APPBase):
                 f.write("#\n")
                 if isLite:
                     f.write("# Title: AdBlock V2ray/Xray Lite\n")
-                    f.write("# Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：%s。Lite 版仅针对国内域名拦截。\n"%(self.sourceRule))
+                    f.write("# Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：%s。Lite 版仅针对国内域名拦截。\n" % (self.sourceRule))
                 else:
                     f.write("# Title: AdBlock V2ray/Xray\n")
-                    f.write("# Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：%s。\n"%(self.sourceRule))
-                f.write("# Homepage: %s\n"%(self.homepage))
-                f.write("# Source: %s/%s\n"%(self.source, os.path.basename(fileName)))
-                f.write("# Version: %s\n"%(self.version))
-                f.write("# Last modified: %s\n"%(self.time))
-                f.write("# Blocked domains: %s\n"%(len(blockList)))
+                    f.write("# Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：%s。\n" % (self.sourceRule))
+                f.write("# Homepage: %s\n" % (self.homepage))
+                f.write("# Source: %s/%s\n" % (self.source, os.path.basename(fileName)))
+                f.write("# Version: %s\n" % (self.version))
+                f.write("# Last modified: %s\n" % (self.time))
+                f.write("# Blocked domains: %s\n" % (len(blockList)))
                 f.write("#\n")
                 for domain in blockList:
-                    if domain.find('_') < 0: # domain-list-community 工具在生成 geosite.dat 时，会进行严格的主机名校验
-                        f.write("%s @ads\n"%(domain))
+                    # domain-list-community 工具在生成 geosite.dat 时，会进行严格的主机名校验
+                    if domain.find('_') < 0:
+                        f.write("%s @ads\n" % (domain))
 
             if isLite:
                 logger.info("adblock V2ray/Xray Lite: block=%d" % (len(blockList)))
@@ -48,4 +53,3 @@ class V2ray(APPBase):
                 logger.info("adblock V2ray/Xray: block=%d" % (len(blockList)))
         except Exception as e:
             logger.error("%s" % (e))
-
