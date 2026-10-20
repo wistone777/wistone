@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wAKQEDu5gF8rGyHPnJyfBA
-! Version: 202610200751
+! Checksum: vlOg/kJWTKcP/pKPajjWyw
+! Version: 202610200901
 ! Title: EasyList
-! Last modified: 20 Oct 2026 07:51 UTC
+! Last modified: 20 Oct 2026 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21219,6 +21219,7 @@ browsershots.org#@#.advert_area
 ||bnpwobsswqtmx.space^
 ||bnr.sys.lv^
 ||bnrdom.com^
+||bnrhzqmmenger.site^
 ||bnrs.it^
 ||bnrsis.com^
 ||bnrslks.com^
@@ -27292,6 +27293,7 @@ browsershots.org#@#.advert_area
 ||duflij.com^
 ||dugdugsorelyholing.cfd^
 ||dugrhmdlsdcop.website^
+||dugygysn.com^
 ||duhkxehelalch.store^
 ||duhxgrfaziemg.site^
 ||duidoaghteqgs.website^
@@ -28042,6 +28044,7 @@ browsershots.org#@#.advert_area
 ||ejke2z8vc9nftl.rest^
 ||ejksxgciipiry.space^
 ||ejky29he9e4ek7.cfd^
+||ejmilsccgucyno.com^
 ||ejmpeymopqcaf.site^
 ||ejnhzgcgazhjl.site^
 ||ejnnuvhvimfxh.space^
@@ -30331,6 +30334,7 @@ browsershots.org#@#.advert_area
 ||fontdeterminer.com^
 ||fontinaflexorsaltman.qpon^
 ||foodieblogroll.com^
+||foojfzqypsubg.online^
 ||foojrvqictgwx.website^
 ||foolhardy-wall.com^
 ||foomaque.net^
@@ -36308,6 +36312,7 @@ browsershots.org#@#.advert_area
 ||jgcbbgumfijlt.online^
 ||jgchbqqejehmo.site^
 ||jggoifdxkrimq.website^
+||jghadikzlvvnr.space^
 ||jgieklrrgjcjp.site^
 ||jgixqmqacjzkk.site^
 ||jgjmetqidmbec.website^
@@ -37117,6 +37122,7 @@ browsershots.org#@#.advert_area
 ||jyapmffzkbkbp.site^
 ||jybaekawywkbl.top^
 ||jydbuockjatwf.space^
+||jyedyyaxvrvnf.site^
 ||jyekwgudnajsai.com^
 ||jyfyrcnskjjhy.space^
 ||jygotubvpyguak.com^
@@ -39694,6 +39700,7 @@ browsershots.org#@#.advert_area
 ||loving-link.com^
 ||lovingrelation.pro^
 ||lovrsdate.com^
+||lowdahlitesvinland.cfd^
 ||lowdychlbkivbf.com^
 ||loweiteserdabsquieta.qpon^
 ||loweststernhaunting.com^
@@ -39751,6 +39758,7 @@ browsershots.org#@#.advert_area
 ||lpwtbsfgamivm.space^
 ||lpwxjjoxopqrq.space^
 ||lpyidhrhhklsp.space^
+||lpzfkjdynfxza.space^
 ||lqbvjmkewzwjk.top^
 ||lqbvjmkoozmry.top^
 ||lqbzvmvwjyor.top^
@@ -50747,6 +50755,7 @@ browsershots.org#@#.advert_area
 ||ryastalest.cfd^
 ||rycfrmbkirh.com^
 ||ryddiuaiixndo.site^
+||rydfigwxabdxb.site^
 ||rydresa.info^
 ||rydtkrsegqpze.website^
 ||rydtyitkzhgzw.space^
@@ -54784,6 +54793,7 @@ browsershots.org#@#.advert_area
 ||tfxswxtxcickc.space^
 ||tgagqxcwhckxw.online^
 ||tgcapgsjdizdv.website^
+||tgclrbecoiqtz.site^
 ||tgel2ebtx.ru^
 ||tggpgfvgyhgps.website^
 ||tgjonodnifuxu.online^
@@ -54795,6 +54805,7 @@ browsershots.org#@#.advert_area
 ||tgtrjjlpjntes.space^
 ||tguyxzkrxgzqt.online^
 ||tgvtlpjqnsiwm.site^
+||tgxvdtsgyownn.space^
 ||thafqlstoiluv.site^
 ||thagrechulo.com^
 ||thairsqojopzz.online^
@@ -59567,6 +59578,7 @@ browsershots.org#@#.advert_area
 ||weirdsentence.com^
 ||weirdusual.pro^
 ||weirdyboreenslittle.cyou^
+||weizkvyqcgsqb.site^
 ||wejqzsufiutaa.site^
 ||wekauairing.shop^
 ||wekazjwmctawy.site^
@@ -60687,6 +60699,7 @@ browsershots.org#@#.advert_area
 ||wwbpmbaltpfky.site^
 ||wwcjhitmvwdqh.space^
 ||wwdhgevpmxmvs.online^
+||wwdjszncajqwt.online^
 ||wwfgafqh.com^
 ||wwfictxcxfioz.website^
 ||wwfmjmjqucuri.website^
@@ -63452,6 +63465,7 @@ browsershots.org#@#.advert_area
 ||zsiezzoevasxb.space^
 ||zsiuorvrnkpbw.website^
 ||zsleznwqqjcjw.site^
+||zslzwwvjceiom.website^
 ||zsnlodckthbjz.online^
 ||zsnrhqltxmsdp.site^
 ||zsnrkdpoxlfzz.space^
