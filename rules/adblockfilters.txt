@@ -1,11 +1,11 @@
 !
 ! Title: AdBlock Filter
-! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：adblockdns、adblockfilters、AdGuard-Rule、PCDN。
+! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：adblockdns、adblockfilters、AdGuard-Rule、PCDN、Adobe。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockfilters.txt
-! Version: 20261020175412
-! Last modified: 2026/10/20 17:54:12
-! Blocked Filters: 98764
+! Version: 20261020181808
+! Last modified: 2026/10/20 18:18:08
+! Blocked Filters: 98761
 !
 ###AC_ad
 ###AD_160
@@ -80919,8 +80919,6 @@ zzzyk.com###Tinfo
 ||adnkronos.com/isf-rum/
 ||ado.wish-best.com^$doc
 ||adobe.com/td_redirect.html$popup
-||adobe.io/system/log
-||adobe.io/web/v1/metrics
 ||adobecloud5xpo.yolasite.com^$all
 ||adobepd*.glitch.me^$doc
 ||adolphusisomlycyou.pages.dev^$all
@@ -84309,7 +84307,6 @@ zzzyk.com###Tinfo
 ||comicbox.xyz/getAdsData
 ||comicbox.xyz/static/js/ad-manager.
 ||comick.*/images/ads/
-||commerce.adobe.io/recs/$script
 ||commitstrip.com/hello.php
 ||commoninja.com/api/v1/event/report/
 ||communicatorcorp.com^*/conversiontracking.js
