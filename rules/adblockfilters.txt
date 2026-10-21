@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：adblockdns、adblockfilters、AdGuard-Rule、PCDN、Adobe。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockfilters.txt
-! Version: 20261021040703
-! Last modified: 2026/10/21 04:07:03
+! Version: 20261021131337
+! Last modified: 2026/10/21 13:13:37
 ! Blocked Filters: 103065
 !
 ###AC_ad
@@ -44287,6 +44287,7 @@ deliveroo.*##[class^="Carousel"] li[class^="Slide-"]:has(div[style*="d815008c-8a
 deliveroo.*##div[class^="HomeFeedScrollTracker-"]:has(div[data-testid="sponsored-badge"] > p[data-testid="sponsored-tag"])
 deliveroo.*##div[class^="HomeFeedScrollTracker-"]:has(p[data-testid="sponsored-rating-distance"] > span[data-testid="label-prefix"])
 deliveroo.*##li:not(:has(li)):has([data-testid="promotional-sponsor-label"])
+deliveroo.*##li[class^="HomeFeedGrid"]:has([data-testid="sponsored-tag"])
 deliveroo.*##li[class^="Slide-"]:has(div[data-testid="sponsored-tag"] > p[data-testid="label"])
 deliveroo.*##li[class^="Slide-"]:has(div[data-testid="sponsored-tag"] > p[data-testid="sponsored-tag-label"])
 deliveroo.*#?#a[role="button"]:has(p:contains(Sponsored))
@@ -87857,7 +87858,6 @@ zzzyk.com###Tinfo
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click-pay.net^$doc
 ||click.ggpickyaff.com^$popup
-||click.infonium.org^$domain=jetvid.top|fembedx.top|hihihaha1.xyz|playhydrax.com|hydrax.net|filmespi.online|playembedapi.site|abysscdn.com|player-cdn.com|nazarickol.com|mov18plus.cloud|asmrfreeplayer.fun|abyssplayer.com|abysplayer.xyz
 ||click.infonium.org^$domain=jetvid.top|fembedx.top|hihihaha1.xyz|playhydrax.com|hydrax.net|filmespi.online|playembedapi.site|abysscdn.com|player-cdn.com|nazarickol.com|mov18plus.cloud|asmrfreeplayer.fun|abyssplayer.com|abysplayer.xyz|ab.nanacdn.com
 ||click.quk.com^$popup
 ||click.taobao.com/$third-party,popunder
