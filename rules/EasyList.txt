@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rqJdqan+wRvvH3wbqDkRaQ
-! Version: 202610211413
+! Checksum: bRs2kE7Gk2P7lhj4dEWPIQ
+! Version: 202610211433
 ! Title: EasyList
-! Last modified: 21 Oct 2026 14:13 UTC
+! Last modified: 21 Oct 2026 14:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -36240,6 +36240,7 @@ browsershots.org#@#.advert_area
 ||jbaqavqaoyrwl.top^
 ||jbaqavqkrovyy.top^
 ||jbazlkbvmyecd.website^
+||jbbbrbnocgbly.website^
 ||jbbralnoniaak.online^
 ||jbbtyboyepzsu.site^
 ||jbbyyryolmlvq.top^
@@ -44072,6 +44073,7 @@ browsershots.org#@#.advert_area
 ||odhrxydtzpzei.website^
 ||odicurinary.cyou^
 ||odinitedetraytopmaul.cyou^
+||odipgsswzzzju.online^
 ||odjhtvortmhrn.site^
 ||odjpwsgkvgian.space^
 ||odklzhubnglgy.space^
@@ -74191,7 +74193,6 @@ farminguk.com###newsadvert
 canberratimes.com.au,theland.com.au###newswell-leaderboard-container
 nextshark.com###nextshark_com_leaderboard_top
 searchfiles.de###nextuse
-digitalfracture.co.uk###ng-banner
 seroundtable.com###ninja_box
 pcgamebenchmark.com,pcgamesn.com,pockettactics.com,thedigitalfix.com,wargamer.com###nn_astro_wrapper
 digitalfoundry.net###nn_half
