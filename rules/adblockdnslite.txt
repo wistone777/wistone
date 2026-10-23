@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：anti-ad、PCDN、Adobe、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockdnslite.txt
-! Version: 20261023041645
-! Last modified: 2026/10/23 04:16:45
-! Blocked domains: 10020
+! Version: 20261023131606
+! Last modified: 2026/10/23 13:16:06
+! Blocked domains: 10018
 ! unBlocked domains: 26
 !
 ||00k456wyh.com^
@@ -1614,7 +1614,6 @@
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||xpjcg.oss-accelerate.aliyuncs.com^
 ||xz-development.oss-cn-beijing.aliyuncs.com^
-||ziio.oss-ap-southeast-1.aliyuncs.com^
 ||fourier-videoclip-sg.allawnos.com^
 ||icosa-service-sg.allawnos.com^
 ||icosa-service-sg-01.allawnos.com^
@@ -4319,7 +4318,6 @@
 ||huayiav.cn^
 ||inner-hw.huazirc.com^
 ||hubcloud.com.cn^
-||download2.huduntech.com^
 ||umami.huexef.cn^
 ||huidakms.com.cn^
 ||huishenghuiying.com^
@@ -8665,7 +8663,6 @@
 ||volcano98.com^
 ||apm.volccdn.com^
 ||httpdns.volcengineapi.com^
-||aass111.tos-cn-beijing.volces.com^
 ||apmplus.volces.com^
 ||apmplus.ap-southeast-1.volces.com^
 ||gator.volces.com^
@@ -9927,6 +9924,7 @@
 ||wappv.zol.com.cn^
 ||ydjs.zol.com.cn^
 ||zolcot122t.com^
+||static.zongheng.com^
 ||zonst.com^
 ||adm.zookingsoft.com^
 ||zoologist00.com^
