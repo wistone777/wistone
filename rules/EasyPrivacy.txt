@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: FeWdCZO6PWEFLEZlyGV4gw
-! Version: 202610260502
+! Checksum: Vd6wEu7080uR4mS6GJYALw
+! Version: 202610261514
 ! Title: EasyPrivacy
-! Last modified: 26 Oct 2026 05:02 UTC
+! Last modified: 26 Oct 2026 15:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2665,6 +2665,7 @@
 /uem-ep.js
 /uisprime/track
 /umami.js
+/umami/script.js
 /umg-analytics.min.js
 /umg-analytics/umgaal.min.js
 /umt.gif?
