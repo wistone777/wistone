@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：anti-ad、PCDN、Adobe、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockfilters.txt
-! Version: 20261027051023
-! Last modified: 2026/10/27 05:10:23
-! Blocked Filters: 101803
+! Version: 20261027133015
+! Last modified: 2026/10/27 13:30:15
+! Blocked Filters: 101801
 !
 ###AC_ad
 ###AD_160
@@ -20303,6 +20303,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /post-views-counter-pro/js/frontend.js
 /post.pinterest.com/q/*$image
 /postcounter.php?
+/poster/zj-gd.js
+/poster/zj-mhz-ding.js
 /posthog-recorder.js
 /postlog?
 /postview.gif?
@@ -35728,7 +35730,6 @@ adweek.com##[style="min-height: 90px; box-sizing: content-box;"]
 adweek.com#?#.sidebar > div.widget-wrapper:has(> div.htl-ad-wrapper)
 adz7short.space,short.cliquebook.net,short.goldenfaucet.io##.rectangles
 adzsafe.com#%#//scriptlet("set-constant", "chk_ads_block", "noopFunc")
-adzz.in,proappapk.com#?##postBody:has(#gotolink) > div:not(.text-center)
 aeink.com##.widget_ui_adsf
 aeink.com##.widget_ui_textads
 aeink.com##p[style*=".alicdn.com/"]
@@ -49112,7 +49113,7 @@ findagrave.com##.fg-prad
 findagrave.com#?#.rounded-pill:contains(Remove Ads)
 findagrave.com#?#.rounded-pill:has-text(Remove Ads)
 findatherapist.com##.sponsoredlisting
-findaudiobook.com,pclicious.net,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
+findaudiobook.com,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
 findgaytube.com#?#.random-container > .wrapper > .b-head-title.recommend:contains(Advertisement)
 findlaw.cn###wlcommonbot
 findmysoft.com###as_336
@@ -52872,7 +52873,7 @@ gvm.com.tw##.promotion > .sp-txt
 gvm.com.tw##.promotion_ad
 gxeea.cn##.m-wrap-school
 gyanipandit.com##a[href^="https://wisetrolley.com/"]
-gyanitheme.com,meclipstudy.in,adzz.in###adtera
+gyanitheme.com,meclipstudy.in###adtera
 gyanitheme.com,paid4.link,miklpro.com##.blog-content
 gyorietokc.hu##.hirek-tamogato
 gywb.cn##.bill-vertical
@@ -67274,8 +67275,6 @@ pchome.net###pchome_970_90_a
 pchome.net###rightbar
 pcinvasion.com#?#.sticky-sidebar-wrapper:has(> #sticky-sidebar > .sticky-sidebar__inner > div[data-freestar-ad])
 pcinvasion.com#?#.sticky-sidebar-wrapper:has(> .units > div[data-freestar-ad])
-pclicious.net###quads-myModal
-pclicious.net#%#//scriptlet("set-constant", "wpquads_adblocker_check_2", "true")
 pcmacstore.com##.mobileHide
 pcmag.com###adkit_footer
 pcmag.com###uswitch_widget_container
@@ -68104,6 +68103,7 @@ play.discoveryplus.com,play.hbomax.com,play.max.com#%#//scriptlet('json-prune', 
 play.doramasplus.net#%#//scriptlet('set-constant', 'openUp', 'noopFunc')
 play.esea.net###module-ads-home-bottom
 play.geforcenow.com#$?##preStreamContainer { remove: true; }
+play.google.com#@#a[href^="intent://"]
 play.google.com#@#div[aria-label="Ads"]
 play.hbomax.com#%#//scriptlet('prevent-xhr', 'brightline.tv')
 play.history.com,play.aetv.com#%#//scriptlet('google-ima3-dai')
@@ -83161,7 +83161,6 @@ world.huanqiu.com##div[class^="ad_t"]
 world.huanqiu.com#@#.ad_all
 world.rugby##.main-nav__promo-link
 world4ufree.*##a[href="https://buycheaphost.net/"]
-world4ufree.ws##.ddbutt
 world68.com##.content_l_flml.zzs
 world68.com##.guanggao
 world68.com##.head_m
@@ -92655,7 +92654,6 @@ zzzyk.com###Tinfo
 ||iid97.com/wp-content/cache/autoptimize/js/
 ||iiikefu.com/wp-content/plugins/halfdata-green-popups/js/lepopup.js
 ||iiilab.com/sponsor
-||iili.io^$domain=adzz.in|proappapk.com
 ||iindiaxxx.b-cdn.net/disk2/Buaksib-IPL-PROMO-4.mp4$media,redirect=noopmp3-0.1s,domain=111.90.150.149
 ||iis7.com/ys/css2018/ggw.js
 ||ikaka.com/globalad/

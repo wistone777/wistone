@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：anti-ad、PCDN、Adobe、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockfilterslite.txt
-! Version: 20261027051023
-! Last modified: 2026/10/27 05:10:23
-! Blocked Filters: 42965
+! Version: 20261027133015
+! Last modified: 2026/10/27 13:30:15
+! Blocked Filters: 42966
 !
 ###AC_ad
 ###AD_160
@@ -20148,6 +20148,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /post-views-counter-pro/js/frontend.js
 /post.pinterest.com/q/*$image
 /postcounter.php?
+/poster/zj-gd.js
+/poster/zj-mhz-ding.js
 /posthog-recorder.js
 /postlog?
 /postview.gif?
@@ -26708,7 +26710,6 @@ advocate.com,out.com,pride.com##div[id^="sPost_Layout_Default_"]:has(> .ad_leade
 advocate.com,out.com,pride.com#?#.component.module-headline:contains(FROM OUR SPONSORS)
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 adz7short.space,short.cliquebook.net,short.goldenfaucet.io##.rectangles
-adzz.in,proappapk.com#?##postBody:has(#gotolink) > div:not(.text-center)
 aeink.com##.widget_ui_adsf
 aeink.com##.widget_ui_textads
 aeink.com##p[style*=".alicdn.com/"]
@@ -30413,7 +30414,7 @@ finanzas.yahoo.com,finance.yahoo.com##.sdaContainer
 find-searcher.com,findresultshere.com,netresultshq.com,netsearchinstant.com,quickresultshq.com,realtimesearchresults.com,resultslandersearch.com,search-nowglobal.com,searchnowexpert.com##.serp-common-top
 find-searcher.com,findresultshere.com,netresultshq.com,netsearchinstant.com,quickresultshq.com,realtimesearchresults.com,resultslandersearch.com,search-nowglobal.com,searchnowexpert.com##.serp-head
 find-searcher.com,findresultshere.com,netresultshq.com,netsearchinstant.com,quickresultshq.com,realtimesearchresults.com,resultslandersearch.com,search-nowglobal.com,searchnowexpert.com##.serp-side-right
-findaudiobook.com,pclicious.net,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
+findaudiobook.com,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
 findlaw.cn###wlcommonbot
 findpersonfree.com,gizchina.com###block-21
 finvtech.com,herstage.com,sportynew.com,travel13.com#@##ads-wrapper
@@ -31146,7 +31147,7 @@ guru.porn,many.xxx##.avd-desc
 gvhot.net,gvhot.com###adblock-overlay
 gvhot.net,gvhot.com###clickCounterText
 gxeea.cn##.m-wrap-school
-gyanitheme.com,meclipstudy.in,adzz.in###adtera
+gyanitheme.com,meclipstudy.in###adtera
 gyanitheme.com,paid4.link,miklpro.com##.blog-content
 gywb.cn##.bill-vertical
 gz.bendibao.com##.content_r_ad300
