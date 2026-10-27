@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：anti-ad、PCDN、Adobe、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockdnslite.txt
-! Version: 20261027225227
-! Last modified: 2026/10/27 22:52:27
-! Blocked domains: 9928
+! Version: 20261028045538
+! Last modified: 2026/10/28 04:55:38
+! Blocked domains: 9919
 ! unBlocked domains: 30
 !
 ||00k456wyh.com^
@@ -411,7 +411,6 @@
 ||2juyabihe.com^
 ||2ka41vagh.com^
 ||2kbmdtlgme.com^
-||2kij3uhj3.cyou^
 ||2lcdjyf37f.com^
 ||2lj9n8sz0w.com^
 ||2lpwji3xr.com^
@@ -1116,7 +1115,6 @@
 ||ee.8i1xc.cn^
 ||m.8i1xc.cn^
 ||8icep0mqi.com^
-||8ieu7ue.cyou^
 ||8j7tu8vtxx.com^
 ||8k69vb6421.com^
 ||8k9ynfczfd.com^
@@ -2575,7 +2573,6 @@
 ||cpanclean.cn^
 ||cpc.cc^
 ||cpgve9dnj.com^
-||cpxlt.cn^
 ||cq2f5kn85c.top^
 ||cq5nsp7kya.com^
 ||cqg8zmtt3.com^
@@ -3096,12 +3093,9 @@
 ||edgeone.app^
 ||dhlpolska.edgeone.cool^
 ||65362655721.edgeone.dev^
-||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||fyguhaghytusg.edgeone.dev^
-||lexical-brown-irnlppnt.edgeone.dev^
 ||outlookliveonverification-dp52uq80y4cv.edgeone.dev^
 ||papa.edgeone.dev^
-||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||sriramnwar-dpoae04723lz.edgeone.dev^
 ||ediuschina.com^
 ||eduace.com.cn^
@@ -3538,7 +3532,6 @@
 ||img.gaore.com^
 ||gaoshouyou.com^
 ||images8.gaotie.cn^
-||gardenmarket.shop^
 ||trk.gardnerdenver.com.cn^
 ||stats.gateio.ch^
 ||gayeah.cn^
@@ -6327,7 +6320,6 @@
 ||api.pingstart.com^
 ||bd1.pipaw.com^
 ||bd2.pipaw.com^
-||pitbulllpl.shop^
 ||pitbullmens.club^
 ||pitbullmensp.shop^
 ||pitbullsportsa.shop^
@@ -6820,7 +6812,6 @@
 ||qq2tdd0xx.com^
 ||qq4g.cn^
 ||qq937.com^
-||down.qqfarmer.com.cn^
 ||sdk-ab-config.qquanquan.com^
 ||tracelog-debug.qquanquan.com^
 ||dpvc1.qqyy.com^
