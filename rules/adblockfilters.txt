@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：anti-ad、PCDN、Adobe、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockfilters.txt
-! Version: 20261028232335
-! Last modified: 2026/10/28 23:23:35
-! Blocked Filters: 101828
+! Version: 20261029051652
+! Last modified: 2026/10/29 05:16:52
+! Blocked Filters: 101830
 !
 ###AC_ad
 ###AD_160
@@ -17384,7 +17384,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /advert/youxi.js
 /advertising/banners/*$image
 /adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
-/adverts/*$~xmlhttprequest
 /advpic/*
 /advrotator_banner_largo.htm$subdocument
 /advstats.js
@@ -22073,7 +22072,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 100ksw.com###ad_move_sg
 100percentfedup.com##.pre-announcement
 100percentfedup.com##.z-ad-display
-100percentfedup.com,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bioinformant.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,celtsarehere.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,conservativebrief.com,conservativefiringline.com,corrosionhour.com,cricfy.net,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,digitalreg.net,dorohedoro.online,dramacool.com.my,ecoportal.net,ecoticias.com,emobilityplus.com,engineering-designer.com,epicdope.com,eurweb.com,fandomwire.com,firstcuriosity.com,firstsportz.com,flashbak.com,flickeringmyth.com,flowmountainbike.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gamebyte.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewayhispanic.com,gatewaynews.co.za,geekdashboard.com,geekzag.com,glassalmanac.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,haxmac.cc,healthinfo.healthengine.com.au,helihub.com,hollywoodinsider.com,hollywoodunlocked.com,hotcelebshome.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jardineriaon.com,jessicagavin.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,libertyunlocked.com,linuxfordevices.com,lithub.com,londonlovesbusiness.com,mangaread.org,mb.com.ph,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,nexusgames.to,nintendoeverything.com,noahreport.com,nokiapoweruser.com,notalwaysright.com,nxbrew.com,organicfacts.net,orlandoweekly.com,patriotfetch.com,pcoptimizedsettings.com,politizoom.com,premiumtimesng.com,primeaudio.org,protrumpnews.com,psu.com,pureinfotech.com,pwmania.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rightwingnews.com,roadaheadonline.co.za,rok.guide,romsworlds.com,saabplanet.com,sacurrent.com,sciencenotes.org,simscommunity.info,slaynews.com,small-screen.co.uk,snipercentral.com,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,suggest.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techaeris.com,technobaboy.com,techpp.com,techrounder.com,techviral.net,the-gadgeteer.com,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedailysight.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,theprint.in,thewincentral.com,thisquality.com,trendingpoliticsnews.com,troypoint.com,tvtonight.com.au,twistedvoxel.com,vice.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wltreport.com,wnd.com,wrestlingheadlines.com,wrestlingnews.co,wtmj.com,zerohanger.com,ziperto.com##.code-block
+100percentfedup.com,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bioinformant.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,celtsarehere.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,conservativebrief.com,conservativefiringline.com,corrosionhour.com,cricfy.net,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,digitalreg.net,dorohedoro.online,dramacool.com.my,ecoportal.net,ecoticias.com,emobilityplus.com,engineering-designer.com,epicdope.com,eurweb.com,fandomwire.com,firstcuriosity.com,firstsportz.com,flashbak.com,flickeringmyth.com,flowmountainbike.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gamebyte.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewayhispanic.com,gatewaynews.co.za,geekdashboard.com,geekzag.com,glassalmanac.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,haxmac.cc,healthinfo.healthengine.com.au,helihub.com,hollywoodinsider.com,hollywoodunlocked.com,hotcelebshome.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jardineriaon.com,jessicagavin.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,libertyunlocked.com,linuxfordevices.com,lithub.com,londonlovesbusiness.com,mangaread.org,mb.com.ph,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,nexusgames.to,nintendoeverything.com,noahreport.com,nokiapoweruser.com,notalwaysright.com,nxbrew.com,organicfacts.net,orlandoweekly.com,patriotfetch.com,pcoptimizedsettings.com,politizoom.com,premiumtimesng.com,primeaudio.org,protrumpnews.com,psu.com,pureinfotech.com,pwmania.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,retrohandhelds.gg,rightwingnews.com,roadaheadonline.co.za,rok.guide,romsworlds.com,saabplanet.com,sacurrent.com,sciencenotes.org,simscommunity.info,slaynews.com,small-screen.co.uk,snipercentral.com,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,suggest.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techaeris.com,technobaboy.com,techpp.com,techrounder.com,techviral.net,the-gadgeteer.com,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedailysight.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,theprint.in,thewincentral.com,thisquality.com,trendingpoliticsnews.com,troypoint.com,tvtonight.com.au,twistedvoxel.com,vice.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wltreport.com,wnd.com,wrestlingheadlines.com,wrestlingnews.co,wtmj.com,zerohanger.com,ziperto.com##.code-block
 1010dy3.com##.text-center[style]
 1010dy3.com##a[href^="/go"]
 1010jiajiao.com###daan_recommend + .xiti
@@ -23554,6 +23553,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 88448.com###ad_forum_banner
 888scoreonline.net##tr[id^="tr_ad"]
 88files.net#%#//scriptlet("prevent-window-open")
+8boobs.com,fapachi.com##.exc-pp
 8days.sg,channelnewsasia.com##.programtic-ads
 8kporner.com##a[href^="https://69Search.com/"]
 8kporner.com##a[href^="https://69pedia.com"]
@@ -38253,6 +38253,7 @@ avclub.com,infosecurity-magazine.com,jezebel.com,nationaljeweler.com,pastemagazi
 avdbapi.com#%#//scriptlet('prevent-fetch', '/vast.js')
 avforums.com##.adHeader
 avforums.com##.m2n-ads-slot
+avforums.com##.m2n-unit
 avforums.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block!important; }
 avgle.com###avyc
 avgle.com###nft
@@ -48338,7 +48339,6 @@ fap-nation.org##div[data-natio-trackid]:has(> center > a[rel])
 fap-nation.org##ul[id^="menu-td-demo-header-"] > li > a[target="_blank"]
 fap16.net##.adsplx300
 fap18.net,fuck55.net,tube.bz##.bb_desktop
-fapachi.com##.exc-pp
 fapality.com,yourlust.com##.native-aside
 fapdick.net##.fstory > div.scont > div.oblozhka + center
 fapdig.com##.right > .content
@@ -65268,6 +65268,7 @@ nifty.org##div[style="position:relative;top:300px;float:left;width:160px;height:
 nifty.org##div[style="width:728px;height:90px;display:block;margin-left:auto;margin-right:auto;"]
 niftytrader.in##.top_six_brokers
 niftytrader.in##.zerodha-bottom-box
+nightdreambabe.com##.g-owner-banner
 nightingaledvs.com##.widget-area--below-post
 nightlight.gg##._adContainer_jdmri_296
 nihon-ikuji.com#@#.showads
@@ -71258,6 +71259,7 @@ retailturkiye.com#$##mvp-site-main { margin-top: 0 !important; }
 reteimprese.it#?#.content > h2:contains(Advertisements)
 retenews24.it##a[href$="http://www.larivistaweb.it/le_monde_en_un_clic/"]
 retrogames.cc#?#div[style] > div[class^="ejs--"] > div[class^="ejs--"] > div:not([class]):not([id]) > div[class^="ejs--"][style*="!important"]:has(> iframe[src="https://www.emulatorjs.com/ad.html"])
+retrohandhelds.gg##.rh-supabase-deals
 retromania.gg##.banner > *
 retroradio.hu#%#//scriptlet('set-constant', 'ado.refresh', 'noopFunc')
 retrostic.com###romstable > tbody > tr:not([itemscope]):has(> td.d-none > div[style="min-height:300px"])
@@ -79901,7 +79903,7 @@ tvtropes.org#$#.ad-content-top { min-height:1px!important; }
 tvtropes.org#$#.bigcrunch-unit { display: none !important; }
 tvtropes.org#$#.sb-fad-unit { visibility: collapse !important; }
 tvtropes.org#$#.tvtropes-ad-unit { visibility: collapse !important; min-height: 1px !important; padding: 0 !important; }
-tvtropes.org#%#//scriptlet('prevent-setTimeout', '/googletagmanager|offsetHeight|\(\);/')
+tvtropes.org#%#//scriptlet('prevent-setTimeout', '/googletagmanager|offsetHeight/')
 tvtropes.org#@##mobile_1
 tvtropes.org#@##mobile_2
 tvtropes.org#@##stick-cont
@@ -80125,6 +80127,7 @@ u.co.uk#%#(()=>{const t={apply:(t,e,r)=>{try{const t=r[0];t?.length>0&&"string"=
 u.co.uk#%#//scriptlet('prevent-fetch', 'v.fwmrm.net')
 u.co.uk#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{const t={apply:(t,e,r)=>{try{const t=r[0];t?.length>0&&"string"==typeof t&&t?.includes?.(\'"ad_block":true\')&&(r[0]=t.replace(\'"ad_block":true\',\'"ad_block":false\'))}catch(t){}return Reflect.apply(t,e,r)}};window.Array.prototype.push=new Proxy(window.Array.prototype.push,t)})();')
 u.gg###af-click > .af-left
+u.gg##.h-\[48px\]
 u.gg##.media-query_MOBILE_SMALL__MOBILE_LARGE:has(> div > div.h-\[300px\])
 u.gg##.top-0.fixed > div.overflow-y-hidden > div.relative:has(> img[src^="https://static.bigbrain.gg/assets/ugg/cta/personal-stats-banner.png"])
 u.gg#$##af-click > #af-header.clickable.af-header { height: 0!important; }
@@ -95849,7 +95852,6 @@ zzzyk.com###Tinfo
 ||omniture*.*^
 ||omonoia24.com/wp-content/uploads/*.gif
 ||omonoia24.com/wp-content/uploads/*/PANIKOS-*.png
-||omsnative.de/tracking/
 ||onad.eu^$popup
 ||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||oncesets.com^$popup

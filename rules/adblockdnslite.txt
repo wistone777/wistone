@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：anti-ad、PCDN、Adobe、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/wistone777/wistone
 ! Source: https://raw.githubusercontent.com/wistone777/wistone/main/rules/adblockdnslite.txt
-! Version: 20261028232335
-! Last modified: 2026/10/28 23:23:35
-! Blocked domains: 9793
+! Version: 20261029051652
+! Last modified: 2026/10/29 05:16:52
+! Blocked domains: 9791
 ! unBlocked domains: 24
 !
 ||00k456wyh.com^
@@ -2641,7 +2641,6 @@
 ||dadde.cn^
 ||dadzz.cn^
 ||dagwi.cn^
-||dajars.shop^
 ||daliantong.com.cn^
 ||mcds.dalyfeds.com^
 ||profiler-collector.dalyfeds.com^
@@ -6747,7 +6746,6 @@
 ||api-access.pangolin-sdk-toutiao.com.queniuyk.com^
 ||log-api.pangolin-sdk-toutiao.com.queniuyk.com^
 ||tnc3-alisc1.zijieapi.com.queniuyk.com^
-||quiavo.shop^
 ||chat.quickcep.com^
 ||qujishu.com^
 ||m.qulishi.com^
