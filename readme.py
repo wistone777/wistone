@@ -145,5 +145,3 @@ class ReadMe(object):
                 f.write("| %s | %s |%s %s |\n" % (rule.name, rule.type, self.__subscribeLink(rule.filename, "source", rule.url), rule.latest))
             f.write("\n")
 
-            f.write("## Star History\n")
-            f.write("[![Star History Chart](https://star-history.dera.page/svg?repos=wistone777/wistone)](https://star-history.dera.page/#217heidai/adblockfilters)\n")
