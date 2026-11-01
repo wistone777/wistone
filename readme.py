@@ -57,11 +57,11 @@ class ReadMe(object):
         if url:
             link += " [原始链接](%s) |" % (url)
         else:
-            link += " [原始链接](https://github.com/217heidai/adblockfilters/releases/download/%s/%s) |" % (tag, fileName)
+            link += " [原始链接](https://github.com/wistone777/wistone/releases/download/%s/%s) |" % (tag, fileName)
 
         for i in range(1, len(self.proxyList)):
             proxy = self.proxyList[i]
-            link += " [加速链接%d](%s/https://github.com/217heidai/adblockfilters/releases/download/%s/%s) |" % (i, proxy, tag, fileName)
+            link += " [加速链接%d](%s/https://github.com/wistone777/wistone/releases/download/%s/%s) |" % (i, proxy, tag, fileName)
 
         return link
 
@@ -71,11 +71,6 @@ class ReadMe(object):
             os.remove(self.filename)
 
         with open(self.filename, 'a') as f:
-            f.write("# AdBlock DNS Filters\n")
-            f.write("> **重要公告（2026-10-29）**：本项目已完成存储结构调整，规则文件不再提交至 Git 仓库，改由 GitHub Releases 分发（`rule`=生成规则、`source`=上游规则、`domain`=过程文件）。原 `raw.githubusercontent.com/.../main/rules/...` 与 jsdelivr `@main/rules/...` 订阅链接已失效，请改用下方新订阅链接（已内置加速通道）。\n")
-            f.write("去广告合并规则，每8个小时更新一次。  \n")
-            f.write("个人收藏了不少广告过滤规则，但是每次往新设备添加的时候很是头疼，于是写了这个项目，定时自动获取各规则源更新，生成合并规则库。\n")
-            f.write("\n")
 
             f.write("## 说明\n")
             f.write("1. 定时从上游各规则源获取更新，合并去重。\n")
@@ -133,11 +128,10 @@ class ReadMe(object):
 
             f.write("## 上游规则源\n")
             f.write("1. 感谢各位广告过滤规则维护大佬们的辛苦付出。\n")
-            f.write("2. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。\n")
-            f.write("3. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。\n")
-            f.write("4. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。\n")
-            f.write("5. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原因见[Issues 85](https://github.com/217heidai/adblockfilters/issues/85)。\n")
-            f.write("6. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)、[Hblock](https://hblock.molinero.dev/hosts_adblock.txt)，误杀较多。\n")
+            f.write("2. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。\n")
+            f.write("3. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。\n")
+            f.write("4. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原因见[Issues 85](https://github.com/217heidai/adblockfilters/issues/85)。\n")
+            f.write("5. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)、[Hblock](https://hblock.molinero.dev/hosts_adblock.txt)，误杀较多。\n")
             f.write("\n")
 
             tmp = "| 规则 | 类型 | 原始链接 |"
@@ -152,4 +146,4 @@ class ReadMe(object):
             f.write("\n")
 
             f.write("## Star History\n")
-            f.write("[![Star History Chart](https://star-history.dera.page/svg?repos=217heidai/adblockfilters)](https://star-history.dera.page/#217heidai/adblockfilters)\n")
+            f.write("[![Star History Chart](https://star-history.dera.page/svg?repos=wistone777/wistone)](https://star-history.dera.page/#217heidai/adblockfilters)\n")
